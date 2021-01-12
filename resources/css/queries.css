@@ -72,7 +72,7 @@
   }
   .col {
     width: 100%;
-    margin: 0 0 4% 0% ;
+    margin: 0 0 4% 0%;
   }
   .main-nav {
     display: none;
@@ -88,10 +88,12 @@
     width: 100%;
     margin-left: 0%;
   }
-  .app-screen{width: 40%;}
+  .app-screen {
+    width: 40%;
+  }
   .steps-box:first-child {
-  text-align: center;
-}
+    text-align: center;
+  }
   .works-step div {
     height: 40px;
     width: 40px;
@@ -109,9 +111,13 @@
 
 /* Small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {
-  section {padding: 25px 0;}
-  .contact-form {width: 100%;}
+  section {
+    padding: 25px 0;
+  }
+  .contact-form {
+    width: 100%;
+  }
   .social-list {
-  float: none;
-}
+    float: none;
+  }
 }
