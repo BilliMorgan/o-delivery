@@ -256,6 +256,20 @@ input[type="submit"] {
 .sticky .logo-black {display: block;}
 
 
+/*------------------------------------------*/
+/* MOBILE NAVI */
+/*------------------------------------------*/
+.mobile-nav-icon{
+float:right;
+margin-top: 30px;
+cursor: pointer;
+display: none;
+}
+.mobile-nav-icon ion-icon{
+font-size: 200%;
+color: #fff;
+}
+
 
 /*------------------------------------------*/
 /* PARAGRAPHS */
@@ -378,7 +392,7 @@ input[type="submit"] {
   width: 55px;
   text-align: center;
   padding: 5px;
-  float: left;
+  /* float: left; */
   font-size: 150%;
   margin-right: 25px;
 }
@@ -592,12 +606,22 @@ footer p {
 }
 
 /*------------------------------------------*/
-/* Animation */
+/* ANIMATION */
 /*------------------------------------------*/
 
-.js--wp-1{
+.js--wp-1,
+.js--wp-2,
+.js--wp-3
+{
   opacity: 0;
+  animation-duration: 1s;
 }
-.js--wp-1.animated {
+.js--wp-4 {
+animation-duration: 1s;
+}
+.js--wp-1.animated
+.js--wp-2.animated
+.js--wp-3.animated
+{
   opacity: 1;
 }
