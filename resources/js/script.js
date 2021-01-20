@@ -102,12 +102,9 @@ $(document).ready(function () {
   );
 
   //Mobile navigation
-  $(".js--nav-icon").click(function() {
-    let nav = $(".js--main-nav")
+  $(".js--nav-icon").click(function () {
+    let nav = $(".js--main-nav");
     let icon = $(".js--nav-icon ion-icon");
-    
     nav.slideToggle(200);
-
-
   });
 });

@@ -91,11 +91,11 @@ h3 {
 /*------------------------------------------*/
 header {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))),
-    url(img/hero.jpg);
+    url(img/hero-min.jpg);
   background-image: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(img/hero.jpg);
+    url(img/hero-min.jpg);
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(img/hero.jpg);
+    url(img/hero-min.jpg);
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -422,11 +422,11 @@ color: #fff;
 
 .section-testimonials {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))),
-    url(img/back-customers.jpg);
+    url(img/back-customers-min.jpg);
   background-image: -o-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url(img/back-customers.jpg);
+    url(img/back-customers-min.jpg);
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url(img/back-customers.jpg);
+    url(img/back-customers-min.jpg);
   background-size: cover;
   color: #fff;
   background-attachment: fixed;
