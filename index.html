@@ -4,9 +4,14 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
-      name="description"
-      content="O-delivery - the showcase landing web page built with the aim to demonstrate Andrii Shymko web developer works"
+      name="og:description"
+      content="O-delivery - the showcase landing web page was built with the aim to demonstrate works of web developer Andrii Shymko"
     />
+    <meta property="og:url" content="#" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="O-delivery" />
+    <!-- <meta property="og:image" content="./resources/img/" /> -->
+    
     <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css" />
     <link rel="stylesheet" type="text/css" href="vendors/css/grid.css" />
     <link rel="stylesheet" type="text/css" href="resources/css/style.css" />
@@ -250,10 +255,10 @@
             </p>
           </div>
 
-          <a href="#" class="btn-app"
+          <a href="https://www.apple.com/ca/app-store/" target="blank" class="btn-app" 
             ><img src="resources/img/download-app.svg" alt="App Store Button"
           /></a>
-          <a href="#" class="btn-app"
+          <a href="https://play.google.com/store/apps?hl=en_CA&gl=US" target="blank" class="btn-app"
             ><img
               src="resources/img/download-app-android.png"
               alt="Play Store Button"
@@ -287,7 +292,7 @@
 
           <div class="city-feature">
             <ion-icon name="logo-twitter" class="icon-small"></ion-icon>
-            <a href="#"> @o-delivery_lisbon </a>
+            <a href="https://twitter.com/"> @o-delivery_lisbon </a>
           </div>
         </div>
 
@@ -307,7 +312,7 @@
           </div>
           <div class="city-feature">
             <ion-icon name="logo-twitter" class="icon-small"></ion-icon>
-            <a href="#"> @o-delirevi_sf </a>
+            <a href="https://twitter.com/"> @o-delirevi_sf </a>
           </div>
         </div>
         <div class="col span-1-of-4 box">
@@ -327,7 +332,7 @@
           </div>
           <div class="city-feature">
             <ion-icon name="logo-twitter" class="icon-small"></ion-icon>
-            <a href="#"> @o-delivery_berlin </a>
+            <a href="https://twitter.com/"> @o-delivery_berlin </a>
           </div>
         </div>
         <div class="col span-1-of-4 box">
@@ -346,7 +351,7 @@
           </div>
           <div class="city-feature">
             <ion-icon name="logo-twitter" class="icon-small"></ion-icon>
-            <a href="#"> @o-delivery_lond </a>
+            <a href="https://twitter.com/"> @o-delivery_lond </a>
           </div>
         </div>
       </div>
@@ -437,7 +442,7 @@
                 </li>
               </ul>
             </div>
-            <div><a href="#" class="btn btn-full">Sign up now </a></div>
+            <div><a href="#contact-form" class="btn btn-full">Sign up now </a></div>
           </div>
         </div>
 
@@ -480,7 +485,7 @@
                 </li>
               </ul>
             </div>
-            <div><a href="#" class="btn btn-ghost">Sign up now </a></div>
+            <div><a href="#contact-form" class="btn btn-ghost">Sign up now </a></div>
           </div>
         </div>
 
@@ -519,18 +524,18 @@
                 </li>
               </ul>
             </div>
-            <div><a href="#" class="btn btn-ghost">Sign up now </a></div>
+            <div><a href="#contact-form" class="btn btn-ghost">Sign up now </a></div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="section-plans">
+    <section class="section-plans" id="contact-form">
       <div class="row">
         <h2>To contact the developer of this site, please fill the form</h2>
       </div>
       <div class="row">
-        <form method="post" action="#" class="contact-form">
+        <form method="post" name="contact" method="POST" data-netlify="true" class="contact-form">
           <div class="row">
             <div class="col span-1-of-3">
               <label for="name">Name</label>
@@ -606,7 +611,6 @@
       <div class="row">
         <div class="col span-1-of-2">
           <ul class="footer-nav">
-            <li><a href="#">About us</a></li>
             <li><a href="https://billimorgan.github.io/">My portfolio</a></li>
             <li>
               <a href="https://www.apple.com/ca/app-store/" target="blank"
@@ -642,13 +646,13 @@
         </div>
       </div>
       <div class="row">
+        <p>This beautiful landing page was built for demonstration purposes only.</p>
         <p>Copyright &copy; 2021 by Andrii Shymko. All right reserved.</p>
       </div>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/selectivizr@1.0.3/selectivizr.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/Gruntfile.js"></script>
-    <!-- <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script> -->
     <script src="vendors/js/jquery.waypoints.min.js"></script>
     <script src="resources/js/script.js"></script>
   </body>
