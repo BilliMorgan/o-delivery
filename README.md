@@ -1,5 +1,9 @@
-# o-delivery
-Landing page for the food delivery company
+# O-delivery
+Landing page for the food delivery company.
+The web page was built with pure HTML/CSS/jQuery as showcase of my works. 
+Deployed on Netlify. A form functionality realized with Netlify as well.
+
+![index page](./resources/img/o-delivery.jpg)
 
 
 
