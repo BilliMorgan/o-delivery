@@ -1,3 +1,5 @@
+https://o-delivery.netlify.app/
+
 # O-delivery
 Landing page for the food delivery company.
 The web page was built with pure HTML/CSS/jQuery as showcase of my works. 
